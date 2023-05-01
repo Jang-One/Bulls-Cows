@@ -18,12 +18,18 @@ print(logo)
 answer = genNums()
 answer = "".join(answer)
 
+count = 0
+
 while True:
     player_num = input_num()
     bulls,cows = count_bulls_cows(player_num, answer)
 
     print('bulls :' , bulls)
     print('cows :' , cows)
+    count += 1
+    if count == 10:
+        print('하수네요')
+        break
     if bulls == 4: 
         print('정답입니다!')
         break
