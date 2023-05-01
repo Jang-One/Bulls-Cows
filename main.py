@@ -16,15 +16,14 @@ logo = """
 print(logo)
 
 answer = genNums()
+answer = "".join(answer)
 
 while True:
-
     player_num = input_num()
-    print(player_num)
     bulls,cows = count_bulls_cows(player_num, answer)
 
-    print('bulls :' + bulls)
-    print('cows :' + cows)
+    print('bulls :' , bulls)
+    print('cows :' , cows)
     if bulls == 4: 
         print('정답입니다!')
         break
