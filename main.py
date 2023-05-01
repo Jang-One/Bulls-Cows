@@ -27,11 +27,11 @@ while True:
     print('bulls :' , bulls)
     print('cows :' , cows)
     count += 1
-    if count == 10:
-        print('하수네요')
-        break
     if bulls == 4: 
         print('정답입니다!')
+        break
+    if count == 10:
+        print('하수네요 ㅋ')
         break
     print('--------------------')
 
