@@ -1,5 +1,8 @@
 
 def input_num():
-    user_input = input("4자리 숫자를 입력하세요.")
+    while True:
+        user_input = input("Input 4 digits.\n")
+        if len(user_input) == 4:
+            break
 
     return user_input
