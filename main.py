@@ -1,3 +1,8 @@
+import * from count 
+import * from GenNums
+import * from input_number
+
+
 logo = """ 
                                        _             _  _      
                                ___    | |           | || |     
@@ -10,7 +15,7 @@ logo = """
 
 print(logo)
 
-answer = get_random_num()
+answer = GenNums()
 
 while True:
 
