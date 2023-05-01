@@ -13,8 +13,8 @@ assignees: ''
 
 ## Tasks
 
-- [] Item1
-- [] Item2
+- [ ] Item1
+- [ ] Item2
 
 ## References
 
