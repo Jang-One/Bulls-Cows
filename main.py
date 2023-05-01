@@ -1,6 +1,6 @@
-import * from count 
-import * from GenNums
-import * from input_number
+from count import * 
+from GenNums import * 
+from input_number import * 
 
 
 logo = """ 
@@ -15,11 +15,12 @@ logo = """
 
 print(logo)
 
-answer = GenNums()
+answer = genNums()
 
 while True:
 
     player_num = input_num()
+    print(player_num)
     bulls,cows = count_bulls_cows(player_num, answer)
 
     print('bulls :' + bulls)
